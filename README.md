@@ -4,13 +4,6 @@ This repository contains the analysis code used in the manuscript titled:
 
 ## Repository structure
 
-- `src_behavioral/`: Jupyter Notebooks for data analysis and visualization
-- `src_morphology_analysis/`: Python helper scripts for processing and plotting
+- `src_behavioral/`: scripts for analysis open field test
+- `src_morphology_analysis/`: scripts for analysis morphology of glia
 - `requirements.txt`: Python dependencies
-
-## How to use
-
-```bash
-git clone https://github.com/YoshimotoLab/QIH-analysis-2025.git
-cd QIH-analysis-2025
-pip install -r requirements.txt
