@@ -5,7 +5,7 @@ This repository contains the analysis code used in the manuscript titled:
 ## Repository structure
 
 - `src_behavioral/`: scripts for analysis open field test
-- `src_morphology_analysis/`: scripts for analysis morphology of glia
+- `src_morphology_analysis/`: scripts for analysis morphology of cells
 - `requirements.txt`: Python dependencies
 
 
