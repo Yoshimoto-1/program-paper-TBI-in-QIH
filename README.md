@@ -7,3 +7,8 @@ This repository contains the analysis code used in the manuscript titled:
 - `src_behavioral/`: scripts for analysis open field test
 - `src_morphology_analysis/`: scripts for analysis morphology of glia
 - `requirements.txt`: Python dependencies
+
+
+## Environment
+- Python 3.10.x
+- OS: Windows 10 / 11
