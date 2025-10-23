@@ -13,12 +13,12 @@ mts_files = [f for f in os.listdir(input_folder) if f.lower().endswith(".mts")] 
 
 for mts_file in mts_files:
     input_path = os.path.join(input_folder, mts_file)
-    output_path = os.path.join(output_folder, os.path.splitext(mts_file)[0] + ".mp4")  # .mp4に変換
+    output_path = os.path.join(output_folder, os.path.splitext(mts_file)[0] + ".mp4")  # .mp4
 
     # Skip if MP4 file already exists
     if os.path.exists(output_path):
         print(f"Skipping (already converted): {mts_file}")
-        continue  # スキップ
+        continue  # skip
 
     # Run ffmpeg command
     command = ["ffmpeg", "-i", input_path, "-vcodec", "copy", "-acodec", "copy", output_path]
@@ -101,5 +101,6 @@ for i, file in enumerate(mp4_adjust_files):
         .output(output_path, t=duration)
         .run()
     )
+
 
     print(f"finish: {file_name})")
